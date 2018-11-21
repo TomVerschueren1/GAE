@@ -3,11 +3,14 @@ package ds.gae.entities;
 import java.util.Date;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.MappedSuperclass;
 
 
-@Entity
 public class Quote {
-
+	private int id;
     private Date startDate;
     private Date endDate;
     private String carRenter;

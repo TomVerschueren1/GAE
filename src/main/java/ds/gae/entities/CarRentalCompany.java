@@ -12,11 +12,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 import ds.gae.ReservationException;
 
 
-@Entity
 public class CarRentalCompany {
 
 	private static Logger logger = Logger.getLogger(CarRentalCompany.class.getName());

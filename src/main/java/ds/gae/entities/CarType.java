@@ -1,10 +1,14 @@
 package ds.gae.entities;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-@Entity
 public class CarType {
     
+	private int id;
+	
     private String name;
     private int nbOfSeats;
     private boolean smokingAllowed;
