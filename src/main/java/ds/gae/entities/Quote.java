@@ -2,6 +2,10 @@ package ds.gae.entities;
 
 import java.util.Date;
 
+import javax.persistence.Entity;
+
+
+@Entity
 public class Quote {
 
     private Date startDate;

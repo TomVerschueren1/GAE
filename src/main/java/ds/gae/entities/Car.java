@@ -4,6 +4,10 @@ import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
+import javax.persistence.Entity;
+
+
+@Entity
 public class Car {
 
     private int id;
